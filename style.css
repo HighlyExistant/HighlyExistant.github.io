@@ -1,0 +1,70 @@
+:root {
+    --main-bg: #412612;
+    --bar-color: #3b1f0a;
+    --main-font-color: #0a0a0a;
+    --bold-bg-color: #1f140a;
+    --box-shadow: #251809;
+}
+body {
+    background-color: var(--main-bg);
+    color: var(--main-font-color);
+    margin: 0px;
+}
+
+main {
+    margin: 20px;
+}
+.title {
+    font-family: Consolas;
+    text-align: center;
+}
+.bar {
+    display: flex;
+    flex-direction: row;
+    font-family: Consolas;
+    font-size: 2em;
+    background-color: var(--bar-color);
+    border: 0px;
+    height: 2.5em;
+    margin: 0px;
+    box-shadow: 5px 5px 5px var(--box-shadow);
+}
+.bar button {
+    padding-left: 1em;
+    padding-right: 1em;
+    border: none;
+    background-color: var(--bar-color);
+    font-family: Consolas;
+    font-size: 1em;
+    width: auto;
+    height: 100%;
+}
+.bar button:hover {
+    text-decoration: underline;
+}
+.poem {
+    align-items: center;
+    font-family: Consolas;
+    font-style:italic;
+}
+.stanza {
+    align-items: center;
+    font-family: Consolas;
+}
+.poem_body {
+    padding: 1em;
+}
+.verse {
+    text-align: center;
+}
+
+.popup_parent .popup {
+  display: none;
+}
+
+.popup_parent:hover .popup {
+  display: block;
+  background-color: aqua;  
+  position: relative;
+}
+  

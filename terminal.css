@@ -1,0 +1,19 @@
+:root {
+    --terminal-bg: #25170c;
+    --box-shadow: #31200e;
+    --text: #bb7829;
+    --hover-bg: #f1b224;
+    --hover-text: #3a3426;
+}
+.terminal {
+    font-family: Consolas;
+    color: var(--text);
+    background-color: var(--terminal-bg);
+    border-radius: 8px;
+    box-shadow: 5px 5px 5px var(--box-shadow);
+    padding-left: 3%;
+    padding-right: 3%;
+}
+h1 {
+    font-family: Consolas;
+}
